@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+body {
+  background-color: #eee; }
+
+@media screen and (min-width: 480px) {
+  background-color: #eee; }
+@media screen and (min-width: 640px) {
+  background-color: #0074d9; }
+@media screen and (min-width: 800px) {
+  background-color: #39cccc; }
+@media screen and (min-width: 1000px) {
+  background-color: #2ecc40; }
+.menu-controller-checkbox {
+  display: none; }
+
+.dropdown .menu-controller-checkbox ~ ul {
+  transition: max-height .5s ease; }
+.dropdown .menu-controller-checkbox:checked ~ ul {
+  max-height: 1000px; }
+.dropdown .menu-controller-checkbox ~ .menu-controller-label {
+  transition: margin-bottom .5s ease; }
+.dropdown .menu-controller-checkbox:checked ~ .menu-controller-label {
+  margin-bottom: 1.5rem; }
+
+.dropdown ul {
+  font-family: "Slabo 27px", serif;
+  font-size: 2em;
+  max-height: 0;
+  overflow: hidden; }
+  .dropdown ul a {
+    display: block;
+    height: 100%;
+    width: 100%; }
+  .dropdown ul a:link, .dropdown ul a:visited {
+    color: #111;
+    text-decoration: none; }
+  .dropdown ul a:hover {
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: bold; }
+  .dropdown ul a:active {
+    color: #eee; }
+  .dropdown ul li {
+    background-color: #ddd;
+    display: block;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    text-align: center; }
+  .dropdown ul li:last-of-type {
+    margin-bottom: 0; }
+.dropdown .menu-controller-label {
+  background-color: #111;
+  color: #eee;
+  display: block;
+  font-family: "Slabo 27px", serif;
+  font-size: 2.25em;
+  padding: .5rem;
+  margin: .5rem 0;
+  text-align: center; }
+
+h1 {
+  background-color: #111;
+  color: #b3c855; }
+
+img {
+  max-width: 100%; }
+
+.angie {
+  max-width: 300px;
+  margin: auto; }
+
+p {
+  line-height: 1.5rem;
+  margin: 1rem;
+  text-align: center; }
+
+.skills li {
+  display: block; }
+
+.desktop-hidden {
+  display: none; }
+
+.visuallyhidden {
+  display: none; }
+
+.resume-header {
+  background-color: #b3c855;
+  font-weight: bolder;
+  padding: .5rem; }
+
+.skills p, .software p {
+  line-height: .5rem; }
+
+.education h3, .experience h3 {
+  text-align: center;
+  margin-top: 1rem; }
+
+.education p, .experience p {
+  margin: 0; }
+
+.experience h4 {
+  margin: 0;
+  text-align: center; }
+
+@media screen and (min-width: 480px) {
+  .dropdown ul {
+    font-family: "Slabo 27px", serif;
+    font-size: 2em;
+    max-height: 0;
+    overflow: visible; }
+    .dropdown ul li {
+      background-color: transparent;
+      display: inline-block;
+      margin: 0 1rem 0 0;
+      padding: 0;
+      text-align: center; }
+    .dropdown ul a {
+      display: inline;
+      height: 100%;
+      width: 100%; }
+    .dropdown ul a:link, .dropdown ul a:visited {
+      color: #eee;
+      text-decoration: none; }
+    .dropdown ul a:hover {
+      color: #b3c855;
+      font-size: 1em;
+      text-decoration: none; }
+    .dropdown ul a:active {
+      color: #eee; }
+  .dropdown .menu-controller-checkbox ~ ul {
+    max-height: none;
+    overflow: visible;
+    text-align: center;
+    background-color: #111;
+    padding: 1rem; }
+  .dropdown .menu-controller-label {
+    display: none;
+    visibility: hidden; }
+
+  .social-nav {
+    text-align: center;
+    margin: 5rem; } }
+@media screen and (min-width: 800px) {
+  body {
+    max-width: 1000px;
+    margin: auto; }
+
+  header {
+    background-color: #111;
+    position: relative;
+    height: 5.1rem; }
+
+  h1 {
+    float: left;
+    width: 45%; }
+
+  .main-nav {
+    float: right; }
+
+  .desktop-hidden {
+    display: block; }
+
+  .mobile-hidden {
+    display: none; }
+
+  section {
+    position: relative;
+    overflow: hidden; }
+
+  .angie {
+    float: right;
+    width: 35%;
+    margin: 1rem;
+    text-align: left; }
+
+  .bio {
+    float: left;
+    width: 60%;
+    padding: 6rem 1rem; } }
+h1 {
+  font-size: 48px;
+  text-align: center;
+  padding: .75rem; }
+
+h2 {
+  text-align: center;
+  text-decoration: underline; }
+
+/*# sourceMappingURL=css.css.map */

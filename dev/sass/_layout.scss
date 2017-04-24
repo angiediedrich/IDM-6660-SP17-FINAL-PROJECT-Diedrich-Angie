@@ -1,0 +1,164 @@
+h1 {
+	background-color: $black;
+	color: $green;
+}
+
+img {
+	max-width: 100%;
+}
+
+.angie {
+	max-width: 300px;
+	margin: auto;
+}
+
+p {
+	line-height: $line-height;
+	margin: 1rem;
+	text-align: center;
+}
+
+.skills li {
+	display: block;
+}
+
+.desktop-hidden {
+	display: none;
+}
+
+.visuallyhidden {
+	display: none;
+}
+
+.resume-header {
+    background-color: $green;
+    font-weight: bolder;
+    padding: .5rem;
+}
+
+.skills p, .software p {
+	line-height: .5rem;
+}
+
+.education h3, .experience h3 {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.education p, .experience p {
+	margin: 0;
+}
+
+.experience h4 {
+	margin: 0;
+	text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+	.dropdown {
+
+  		ul {
+    		font-family: $header-font;
+    		font-size: 2em;
+    		max-height: 0;
+    		overflow: visible;
+
+	    	li {
+		        background-color: transparent;
+		        display: inline-block;
+		        margin: 0 1rem 0 0;
+		        padding: 0;
+		        text-align: center;
+		    }
+
+		    a {
+		      	display: inline;
+		      	height: 100%;
+		      	width: 100%;
+		    }
+
+		    a:link, a:visited {
+		      color: $white;
+		      text-decoration: none;
+		    }
+
+		    a:hover {
+			    color: $green;
+			    font-size: 1em;
+			    text-decoration: none;
+			}
+
+			a:active {
+			    color: $white;
+			}
+		}
+
+	    .menu-controller-checkbox ~ ul {
+	      max-height: none;
+	      overflow: visible;
+	      text-align: center;
+	      background-color: $black;
+	      padding: 1rem;
+	    }
+
+	    .menu-controller-label {
+	      display: none;
+	      visibility: hidden;
+	    }
+    }
+
+    .social-nav {
+    	text-align: center;
+    	margin: 5rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+	body {
+		max-width: 1000px;
+		margin: auto;
+	}
+
+	header {
+		background-color: $black;
+		position: relative;
+		height: $line-height * 3.4;
+	}
+
+	h1 {
+		float: left;
+		width: 45%
+	}
+	
+	.main-nav {
+		float: right;
+	}
+
+    .desktop-hidden {
+  		display: block;
+  	}
+
+  	.mobile-hidden {
+  		display: none;
+  	}
+
+  	section {
+  		position: relative;
+  		overflow: hidden;
+  	}
+
+  	.angie {
+  		float: right;
+  		width: 35%;
+  		margin: 1rem;
+  		text-align: left;
+  	}
+
+  	.bio {
+  		float: left;
+  		width: 60%;
+		padding: 6rem 1rem;
+  	}
+}
+
+

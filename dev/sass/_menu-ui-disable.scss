@@ -1,0 +1,30 @@
+@media screen and (min-width: 480px) {
+
+  .dropdown {
+
+    .menu-controller-checkbox ~ ul {
+      max-height: none;
+      overflow: visible;
+      text-align: center;
+      background-color: $gray;
+    }
+
+    .menu-controller-label {
+      display: none;
+      visibility: hidden;
+    }
+
+    ul {
+      a { display: inline;
+      }
+
+      li {
+        background-color: transparent;
+        display: inline-block;
+        margin: 0 1rem 0 0;
+        padding: 0;
+        text-align: center;
+      }
+    }
+  }
+}
