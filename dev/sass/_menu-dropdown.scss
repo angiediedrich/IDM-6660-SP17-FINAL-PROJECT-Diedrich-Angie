@@ -1,5 +1,4 @@
 .dropdown {
-  z-index: 200;
 
   ul {
     font-family: $header-font;
@@ -14,7 +13,7 @@
     }
 
     a:link, a:visited {
-      color: $black;
+      color: #111;
       text-decoration: none;
     }
 
@@ -25,11 +24,11 @@
     }
 
     a:active {
-      color: $white;
+      color: #eee;
     }
 
     li {
-      background-color: $silver;
+      background: #fff;
       display: block;
       margin-bottom: $line-height;
       padding: $line-height;
