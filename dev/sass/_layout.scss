@@ -26,11 +26,19 @@ p {
 	display: none;
 }
 
+.work {
+	text-align: center;
+}
+
+.work article {
+	margin: 1rem;
+}
+
 .visuallyhidden {
 	display: none;
 }
 
-.resume-header {
+.resume-header, .work h2 {
     background-color: $green;
     font-weight: bolder;
     padding: .5rem;
@@ -110,6 +118,21 @@ p {
 
   	.angie img {
   		margin-top: 1rem;
+  	}
+
+  	.work {
+  		position: relative;
+  		overflow: hidden;
+  	}
+
+  	.work h2 {
+  		margin: 1rem 0;
+  	}
+
+  	.work article {
+  		float: right;
+  		width: 45%;
+  		margin-top: .5rem;;
   	}
 
     .social-nav {
