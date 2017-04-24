@@ -7,57 +7,6 @@ img {
 	max-width: 100%;
 }
 
-.home {
-
-	body {
-		position: relative;
-	}
-
-	.background {
-		max-width: 100%;
-		min-width: 800px;
-		position: absolute;
-		margin: 0;
-		top: 0;
-		z-index: -100;
-	}
-
-	.home-header {
-		position: absolute;
-		color: #fff;
-		border: solid 3px #eee;
-		background-color: hsla(0, 0%, 0%, 0.4);
-		font-size: 2em;
-		font-family: 'Caveat', sans-serif;
-		padding: .5em;
-		top: 25%;
-		left: 25%;
-		width: 50%;
-		z-index: 10;
-	}
-
-	.main-nav {
-		background-color: hsla(0, 0%, 0%, 0.4);
-		margin-bottom: 1rem;
-	}
-
-	footer .home-copyright {
-		position: relative;
-		margin-top: 1rem;
-		margin-top: 16.5rem;
-	}
-
-	.home-copyright p {
-	  	color: #fff;
-	  	font-family: 'Raleway', sans-serif;
-	  	font-size: 11px;
-	  	text-align: center;
-	  	line-height: .75rem;
-	  	margin: 0;
-	  	padding: 0;
-	}
-}
-
 .angie {
 	max-width: 300px;
 	margin: auto;
