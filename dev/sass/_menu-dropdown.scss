@@ -1,4 +1,5 @@
 .dropdown {
+  z-index: 200;
 
   ul {
     font-family: $header-font;
@@ -41,7 +42,6 @@
   }
 
   .menu-controller-label {
-    background-color: $black;
     color: $white;
     display: block;
     font-family: $header-font;
