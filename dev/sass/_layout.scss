@@ -1,5 +1,4 @@
 h1 {
-	background-color: $black;
 	color: $green;
 }
 
@@ -55,11 +54,15 @@ p {
 }
 
 @media screen and (min-width: 480px) {
+
 	.dropdown {
+		nav {
+			margin-bottom: 1rem;
+		}
 
   		ul {
     		font-family: $header-font;
-    		font-size: 2em;
+    		font-size: 1.7em;
     		max-height: 0;
     		overflow: visible;
 
@@ -132,6 +135,7 @@ p {
 	
 	.main-nav {
 		float: right;
+		padding-top: .5rem;
 	}
 
     .desktop-hidden {

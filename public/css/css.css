@@ -66,7 +66,6 @@ body {
   text-align: center; }
 
 h1 {
-  background-color: #111;
   color: #b3c855; }
 
 img {
@@ -110,9 +109,11 @@ p {
   text-align: center; }
 
 @media screen and (min-width: 480px) {
+  .dropdown nav {
+    margin-bottom: 1rem; }
   .dropdown ul {
     font-family: "Raleway", sans-serif;
-    font-size: 2em;
+    font-size: 1.7em;
     max-height: 0;
     overflow: visible; }
     .dropdown ul li {
@@ -162,7 +163,8 @@ p {
     width: 45%; }
 
   .main-nav {
-    float: right; }
+    float: right;
+    padding-top: .5rem; }
 
   .desktop-hidden {
     display: block; }
