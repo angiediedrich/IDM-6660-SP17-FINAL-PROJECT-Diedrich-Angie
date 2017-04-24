@@ -66,6 +66,7 @@ body {
   text-align: center; }
 
 h1 {
+  background-color: #111;
   color: #b3c855; }
 
 img {
@@ -109,11 +110,10 @@ p {
   text-align: center; }
 
 @media screen and (min-width: 480px) {
-  .dropdown nav {
-    margin-bottom: 1rem; }
   .dropdown ul {
     font-family: "Raleway", sans-serif;
     font-size: 1.7em;
+    margin-top: .5rem;
     max-height: 0;
     overflow: visible; }
     .dropdown ul li {
@@ -145,6 +145,9 @@ p {
     display: none;
     visibility: hidden; }
 
+  .angie img {
+    margin-top: 1rem; }
+
   .social-nav {
     text-align: center;
     margin: 5rem; } }
@@ -163,8 +166,7 @@ p {
     width: 45%; }
 
   .main-nav {
-    float: right;
-    padding-top: .5rem; }
+    float: right; }
 
   .desktop-hidden {
     display: block; }
@@ -187,13 +189,11 @@ p {
     width: 60%;
     padding: 6rem 1rem; } }
 h1 {
-  font-family: "Caveat", sans-serif;
-  font-size: 48px;
+  font-size: 42px;
   text-align: center;
   padding: .75rem; }
 
 h2 {
-  font-family: "Raleway", sans-serif;
   text-align: center;
   text-decoration: underline; }
 

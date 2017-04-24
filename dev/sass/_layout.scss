@@ -1,4 +1,5 @@
 h1 {
+	background-color: $black;
 	color: $green;
 }
 
@@ -54,15 +55,12 @@ p {
 }
 
 @media screen and (min-width: 480px) {
-
 	.dropdown {
-		nav {
-			margin-bottom: 1rem;
-		}
 
   		ul {
     		font-family: $header-font;
     		font-size: 1.7em;
+    		margin-top: .5rem;
     		max-height: 0;
     		overflow: visible;
 
@@ -110,6 +108,10 @@ p {
 	    }
     }
 
+  	.angie img {
+  		margin-top: 1rem;
+  	}
+
     .social-nav {
     	text-align: center;
     	margin: 5rem;
@@ -130,12 +132,11 @@ p {
 
 	h1 {
 		float: left;
-		width: 45%
+		width: 45%;
 	}
 	
 	.main-nav {
 		float: right;
-		padding-top: .5rem;
 	}
 
     .desktop-hidden {
