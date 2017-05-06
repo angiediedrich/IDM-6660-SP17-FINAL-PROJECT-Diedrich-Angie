@@ -66,8 +66,43 @@ body {
   text-align: center; }
 
 h1 {
-  background-color: #111;
-  color: #b3c855; }
+  font-size: 57px;
+  font-family: 'Caveat', sans-serif;
+  text-align: center;
+  letter-spacing: .5px; }
+
+h2 {
+  text-align: center;
+  text-decoration: underline; }
+
+.bio {
+  font-size: 24px;
+  font-family: 'Caveat', sans-serif; }
+
+.bio p {
+  line-height: 1.5em; }
+
+@media screen and (min-width: 800px) {
+  h1 a {
+    font-size: 63px; } }
+@media screen and (min-width: 1000px) {
+  ul li {
+    font-size: 26.4px; }
+
+  .bio {
+    font-size: 33px; }
+
+  .bio p {
+    line-height: 1.2em; } }
+h1 {
+  background-color: #111; }
+
+h1 a {
+  color: #b3c855;
+  text-decoration: none; }
+
+header {
+  background-color: #111; }
 
 img {
   max-width: 100%; }
@@ -119,8 +154,8 @@ p {
 @media screen and (min-width: 480px) {
   .dropdown ul {
     font-family: "Raleway", sans-serif;
-    font-size: 1.7em;
-    margin-top: .5rem;
+    font-size: 1.45em;
+    margin-top: .75rem;
     max-height: 0;
     overflow: visible; }
     .dropdown ul li {
@@ -173,13 +208,17 @@ p {
     margin: 5rem; } }
 @media screen and (min-width: 800px) {
   body {
-    max-width: 1000px;
+    max-width: 100%;
+    margin: auto; }
+
+  .content {
+    max-width: 1200px;
     margin: auto; }
 
   header {
     background-color: #111;
     position: relative;
-    height: 5.1rem; }
+    height: 5.625rem; }
 
   h1 {
     float: left;
@@ -198,24 +237,28 @@ p {
     position: relative;
     overflow: hidden; }
 
+  .content-bio {
+    width: 800px;
+    margin: auto; }
+
   .angie {
-    float: right;
+    float: left;
     width: 35%;
-    margin: 1rem;
-    text-align: left; }
+    padding-left: 1rem; }
 
   .bio {
-    float: left;
-    width: 60%;
-    padding: 6rem 1rem; } }
-h1 {
-  font-size: 42px;
-  font-family: 'Caveat', sans-serif;
-  text-align: center;
-  padding: .75rem; }
+    float: right;
+    width: 65%;
+    margin-top: 5rem; }
 
-h2 {
-  text-align: center;
-  text-decoration: underline; }
+  .bio-1 {
+    margin-bottom: 2.25rem; } }
+@media screen and (min-width: 1200px) {
+  h1 {
+    text-align: left;
+    padding-left: 2rem; }
+
+  .content-bio {
+    width: 1000px; } }
 
 /*# sourceMappingURL=css.css.map */
