@@ -163,9 +163,10 @@ p {
     margin: 1rem 0; }
 
   .work article {
-    float: right;
-    width: 45%;
-    margin-top: .5rem; }
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 1rem; }
 
   .social-nav {
     text-align: center;
