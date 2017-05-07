@@ -80,6 +80,25 @@ h2 {
   padding: 1rem;
   margin: 1rem; }
 
+.work {
+  text-align: center;
+  border: 5px #fff solid;
+  margin: 1rem; }
+
+.work h2 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: normal; }
+
+.work p a {
+  color: #111;
+  text-decoration: none;
+  font-family: sans-serif; }
+
+.work p a:hover {
+  text-decoration: underline; }
+
 .bio {
   font-size: 24px;
   font-family: 'Caveat', sans-serif; }
@@ -126,11 +145,6 @@ p {
 
 .desktop-hidden {
   display: none; }
-
-.work {
-  text-align: center;
-  border: 5px #fff solid;
-  margin: 1rem; }
 
 .work article {
   margin: 1rem; }

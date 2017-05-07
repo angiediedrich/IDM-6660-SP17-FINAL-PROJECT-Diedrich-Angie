@@ -16,6 +16,29 @@ h2 {
 	margin: 1rem;
 }
 
+.work {
+	text-align: center;
+	border: 5px #fff solid;
+	margin: 1rem;
+}
+
+.work h2 {
+	text-transform: uppercase;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.work p a {
+	color: $black;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.work p a:hover {
+	text-decoration: underline;
+}
+
 .bio {
 	font-size: $font-size-base *2;
 	font-family: 'Caveat', sans-serif;
