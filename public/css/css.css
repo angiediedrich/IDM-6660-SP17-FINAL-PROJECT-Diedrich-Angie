@@ -119,6 +119,9 @@ h2 {
 .bio p {
   line-height: 1.5em; }
 
+.skills, .education, .software, .experience, .mission {
+  font-family: sans-serif; }
+
 footer {
   color: #eee;
   font-family: sans-serif; }
@@ -321,7 +324,11 @@ footer {
 
   .social-nav {
     text-align: center;
-    margin: 5rem; } }
+    margin: 5rem; }
+
+  .mission p {
+    max-width: 500px;
+    margin: auto; } }
 @media screen and (min-width: 800px) {
   body {
     max-width: 100%;
@@ -380,22 +387,23 @@ footer {
 
   .resume-container {
     position: relative;
-    max-width: 1200px;
-    border: blue 1px solid; }
+    max-width: 1200px; }
 
   .skills, .education, .software, .experience {
     float: left;
     margin: auto;
     width: 50%;
-    height: 25rem;
-    border: red solid 1px; }
+    height: 23.5rem; }
 
   .resume-container h2 {
     margin: 1rem; } }
 @media screen and (min-width: 1000px) {
   .home-header {
     max-width: 400px;
-    margin: 20% auto; } }
+    margin: 20% auto; }
+
+  .bio {
+    margin-top: 3rem; } }
 @media screen and (min-width: 1200px) {
   h1 {
     text-align: left;

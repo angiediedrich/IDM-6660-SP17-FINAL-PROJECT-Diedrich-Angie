@@ -215,6 +215,11 @@ footer {
     	text-align: center;
     	margin: 5rem;
     }
+
+    .mission p {
+    	max-width: 500px;
+    	margin: auto;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -290,15 +295,13 @@ footer {
 	.resume-container {
 		position: relative;
 		max-width: 1200px;
-		border: blue 1px solid;
 	}
 
 	.skills, .education, .software, .experience {
 		float: left;
 		margin: auto;
 		width: 50%;
-		height: 25rem;;
-		border: red solid 1px;
+		height: 23.5rem;
 	}
 
 	.resume-container h2 {
@@ -311,6 +314,10 @@ footer {
 	.home-header {
 		max-width: 400px;
 		margin: 20% auto;
+	}
+
+	.bio {
+		margin-top: 3rem;;
 	}
 }
 
