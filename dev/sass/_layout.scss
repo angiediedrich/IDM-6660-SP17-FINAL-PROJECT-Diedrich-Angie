@@ -1,3 +1,7 @@
+html {
+	position: relative;
+}
+
 h1 {
 	background-color: $black;
 }
@@ -13,6 +17,17 @@ header {
 
 img {
 	max-width: 100%;
+}
+
+.home-container {
+	width: 100%;
+}
+
+.home-header {
+	border: 5px $white solid;
+	background-color: hsla(0, 0%, 0%, 0.6);
+	max-width: 400px;
+	margin: 2rem auto;
 }
 
 .angie {
@@ -92,10 +107,21 @@ p {
 	text-align: center;
 }
 
+.home-wrapper {
+	min-height: 100%;
+	margin-bottom: -30px;
+}
+
 footer {
 	background-color: $black;
 	padding: 1rem 0;
 	margin-top: .75rem;
+}
+
+.home-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
 .email {
@@ -159,6 +185,12 @@ footer {
 	    }
     }
 
+    .home-header {
+		max-width: 400px;
+		top: 30%;
+		margin: 30% auto;
+	}
+
   	.angie img {
   		margin-top: 1rem;
   	}
@@ -183,6 +215,11 @@ footer {
     	text-align: center;
     	margin: 5rem;
     }
+
+    .mission p {
+    	max-width: 500px;
+    	margin: auto;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -205,6 +242,16 @@ footer {
 	h1 {
 		float: left;
 		width: 45%;
+	}
+
+	.home-header h1 {
+		float: none;
+		width: 100%;
+	}
+
+	.home-header {
+		max-width: 400px;
+		margin: 25% auto;
 	}
 	
 	.main-nav {
@@ -248,15 +295,13 @@ footer {
 	.resume-container {
 		position: relative;
 		max-width: 1200px;
-		border: blue 1px solid;
 	}
 
 	.skills, .education, .software, .experience {
 		float: left;
 		margin: auto;
 		width: 50%;
-		height: 25rem;;
-		border: red solid 1px;
+		height: 23.5rem;
 	}
 
 	.resume-container h2 {
@@ -265,14 +310,43 @@ footer {
 
 }
 
+@media screen and (min-width: 1000px) {
+	.home-header {
+		max-width: 400px;
+		margin: 20% auto;
+	}
+
+	.bio {
+		margin-top: 3rem;;
+	}
+}
+
 @media screen and (min-width: 1200px) {
 	h1 {
 		text-align: left;
 		padding-left: 2rem;
 	}
 
+	.home-header {
+		max-width: 600px;
+		margin: 15% auto;
+	}
+
+	.home-header h1 {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+
 	.content-bio {
 		width: 1000px
+	}
+}
+
+@media screen and (min-width: 1400px) {
+
+	.home-header {
+		margin: 10% auto;
 	}
 }
 

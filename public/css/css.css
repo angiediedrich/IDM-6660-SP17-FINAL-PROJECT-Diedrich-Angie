@@ -71,6 +71,18 @@ h1 {
   text-align: center;
   letter-spacing: .5px; }
 
+.home-header {
+  color: #eee;
+  max-width: 400px; }
+
+.home-header h1 {
+  background-color: transparent; }
+
+.home-header p {
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 1.1em; }
+
 h2 {
   text-align: center;
   font-family: sans-serif;
@@ -107,6 +119,9 @@ h2 {
 .bio p {
   line-height: 1.5em; }
 
+.skills, .education, .software, .experience, .mission {
+  font-family: sans-serif; }
+
 footer {
   color: #eee;
   font-family: sans-serif; }
@@ -129,16 +144,28 @@ footer {
   .main-nav ul li a {
     font-size: 26.4px; }
 
+  .home-header h1 {
+    font-size: 72px; }
+
   .bio {
     font-size: 33px; }
 
   .bio p {
     line-height: 1.2em; } }
+@media screen and (min-width: 1400px) {
+  .home-header h1 {
+    font-size: 108px; }
+
+  .home-header p {
+    font-size: 45px; } }
+html {
+  position: relative; }
+
 h1 {
   background-color: #111; }
 
 h1 a {
-  color: #b3c855;
+  color: #14bb0c;
   text-decoration: none; }
 
 header {
@@ -146,6 +173,15 @@ header {
 
 img {
   max-width: 100%; }
+
+.home-container {
+  width: 100%; }
+
+.home-header {
+  border: 5px #eee solid;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 400px;
+  margin: 2rem auto; }
 
 .angie {
   max-width: 300px;
@@ -179,7 +215,7 @@ p {
   object-position: 25 25; }
 
 .resume-header, .work-container h2 {
-  background-color: #b3c855;
+  background-color: #14bb0c;
   font-weight: bolder;
   padding: .5rem;
   margin: .5rem 0; }
@@ -209,13 +245,22 @@ p {
   margin: 0;
   text-align: center; }
 
+.home-wrapper {
+  min-height: 100%;
+  margin-bottom: -30px; }
+
 footer {
   background-color: #111;
   padding: 1rem 0;
   margin-top: .75rem; }
 
+.home-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
 .email {
-  background-color: #b3c855;
+  background-color: #14bb0c;
   max-width: 385px;
   margin: 1rem auto;
   padding: 1rem; }
@@ -241,7 +286,7 @@ footer {
       color: #eee;
       text-decoration: none; }
     .dropdown ul a:hover {
-      color: #b3c855;
+      color: #14bb0c;
       font-size: 1em;
       text-decoration: none; }
     .dropdown ul a:active {
@@ -255,6 +300,11 @@ footer {
   .dropdown .menu-controller-label {
     display: none;
     visibility: hidden; }
+
+  .home-header {
+    max-width: 400px;
+    top: 30%;
+    margin: 30% auto; }
 
   .angie img {
     margin-top: 1rem; }
@@ -274,7 +324,11 @@ footer {
 
   .social-nav {
     text-align: center;
-    margin: 5rem; } }
+    margin: 5rem; }
+
+  .mission p {
+    max-width: 500px;
+    margin: auto; } }
 @media screen and (min-width: 800px) {
   body {
     max-width: 100%;
@@ -292,6 +346,14 @@ footer {
   h1 {
     float: left;
     width: 45%; }
+
+  .home-header h1 {
+    float: none;
+    width: 100%; }
+
+  .home-header {
+    max-width: 400px;
+    margin: 25% auto; }
 
   .main-nav {
     float: right; }
@@ -325,24 +387,41 @@ footer {
 
   .resume-container {
     position: relative;
-    max-width: 1200px;
-    border: blue 1px solid; }
+    max-width: 1200px; }
 
   .skills, .education, .software, .experience {
     float: left;
     margin: auto;
     width: 50%;
-    height: 25rem;
-    border: red solid 1px; }
+    height: 23.5rem; }
 
   .resume-container h2 {
     margin: 1rem; } }
+@media screen and (min-width: 1000px) {
+  .home-header {
+    max-width: 400px;
+    margin: 20% auto; }
+
+  .bio {
+    margin-top: 3rem; } }
 @media screen and (min-width: 1200px) {
   h1 {
     text-align: left;
     padding-left: 2rem; }
 
+  .home-header {
+    max-width: 600px;
+    margin: 15% auto; }
+
+  .home-header h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0; }
+
   .content-bio {
     width: 1000px; } }
+@media screen and (min-width: 1400px) {
+  .home-header {
+    margin: 10% auto; } }
 
 /*# sourceMappingURL=css.css.map */
