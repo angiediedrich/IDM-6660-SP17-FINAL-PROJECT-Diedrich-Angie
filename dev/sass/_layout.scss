@@ -36,6 +36,8 @@ p {
 
 .work {
 	text-align: center;
+	border: 5px #fff solid;
+	margin: 1rem;
 }
 
 .work article {
@@ -46,11 +48,24 @@ p {
 	display: none;
 }
 
-.resume-header, .work h2 {
+.resume-header, .work-container h2 {
     background-color: $green;
     font-weight: bolder;
     padding: .5rem;
     margin: .5rem 0;
+}
+
+.work-container h2 a {
+	color: $black;
+	font-weight: normal;
+	font-size: 1.15rem;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.work-container h2 a:hover {
+	background-color: $white;
+	font-size: 1.25rem;
 }
 
 .skills p, .software p {
@@ -221,8 +236,6 @@ p {
 	.content-bio {
 		width: 1000px
 	}
-
-
 }
 
 

@@ -75,6 +75,11 @@ h2 {
   text-align: center;
   text-decoration: underline; }
 
+.work-container h2 a {
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1rem; }
+
 .bio {
   font-size: 24px;
   font-family: 'Caveat', sans-serif; }
@@ -86,7 +91,7 @@ h2 {
   h1 a {
     font-size: 63px; } }
 @media screen and (min-width: 1000px) {
-  ul li {
+  .main-nav ul li a {
     font-size: 26.4px; }
 
   .bio {
@@ -123,7 +128,9 @@ p {
   display: none; }
 
 .work {
-  text-align: center; }
+  text-align: center;
+  border: 5px #fff solid;
+  margin: 1rem; }
 
 .work article {
   margin: 1rem; }
@@ -131,11 +138,22 @@ p {
 .visuallyhidden {
   display: none; }
 
-.resume-header, .work h2 {
+.resume-header, .work-container h2 {
   background-color: #b3c855;
   font-weight: bolder;
   padding: .5rem;
   margin: .5rem 0; }
+
+.work-container h2 a {
+  color: #111;
+  font-weight: normal;
+  font-size: 1.15rem;
+  font-family: sans-serif;
+  text-decoration: none; }
+
+.work-container h2 a:hover {
+  background-color: #eee;
+  font-size: 1.25rem; }
 
 .skills p, .software p {
   line-height: .5rem; }

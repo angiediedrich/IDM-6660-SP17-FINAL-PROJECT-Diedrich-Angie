@@ -10,6 +10,12 @@ h2 {
 	text-decoration: underline;
 }
 
+.work-container h2 a {
+	text-decoration: none;
+	padding: 1rem;
+	margin: 1rem;
+}
+
 .bio {
 	font-size: $font-size-base *2;
 	font-family: 'Caveat', sans-serif;
@@ -28,7 +34,7 @@ h2 {
 
 @media screen and (min-width: 1000px) {
 
-	ul li {
+	.main-nav ul li a {
 		font-size: $font-size-base * 2.2;
 	}
 
