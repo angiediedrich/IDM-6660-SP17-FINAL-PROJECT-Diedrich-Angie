@@ -34,10 +34,6 @@ p {
 	display: none;
 }
 
-.work {
-	text-align: center;
-}
-
 .work article {
 	margin: 1rem;
 }
@@ -46,11 +42,36 @@ p {
 	display: none;
 }
 
-.resume-header, .work h2 {
+.work-feature {
+	max-width: 1200px;;
+	max-height: 600px;
+	margin: 0 auto;
+}
+
+.work-feature-img {
+	object-fit: contain;
+	object-position: 50% 50%;
+	object-position: 25 25;
+}
+
+.resume-header, .work-container h2 {
     background-color: $green;
     font-weight: bolder;
     padding: .5rem;
     margin: .5rem 0;
+}
+
+.work-container h2 a {
+	color: $black;
+	font-weight: normal;
+	font-size: 1.15rem;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.work-container h2 a:hover {
+	background-color: $white;
+	font-size: 1.25rem;
 }
 
 .skills p, .software p {
@@ -69,6 +90,19 @@ p {
 .experience h4 {
 	margin: 0;
 	text-align: center;
+}
+
+footer {
+	background-color: $black;
+	padding: 1rem 0;
+	margin-top: .75rem;
+}
+
+.email {
+	background-color: $green;
+	max-width: 385px;
+	margin: 1rem auto;
+	padding: 1rem;
 }
 
 @media screen and (min-width: 480px) {
@@ -210,6 +244,25 @@ p {
   	.bio-1 {
 		margin-bottom: 2.25rem;
 	}
+
+	.resume-container {
+		position: relative;
+		max-width: 1200px;
+		border: blue 1px solid;
+	}
+
+	.skills, .education, .software, .experience {
+		float: left;
+		margin: auto;
+		width: 50%;
+		height: 25rem;;
+		border: red solid 1px;
+	}
+
+	.resume-container h2 {
+		margin: 1rem;
+	}
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -221,8 +274,6 @@ p {
 	.content-bio {
 		width: 1000px
 	}
-
-
 }
 
 
