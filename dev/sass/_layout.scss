@@ -80,6 +80,19 @@ p {
 	text-align: center;
 }
 
+footer {
+	background-color: $black;
+	padding: 1rem 0;
+	margin-top: .75rem;
+}
+
+.email {
+	background-color: $green;
+	max-width: 385px;
+	margin: 1rem auto;
+	padding: 1rem;
+}
+
 @media screen and (min-width: 480px) {
 	.dropdown {
 
@@ -219,6 +232,25 @@ p {
   	.bio-1 {
 		margin-bottom: 2.25rem;
 	}
+
+	.resume-container {
+		position: relative;
+		max-width: 1200px;
+		border: blue 1px solid;
+	}
+
+	.skills, .education, .software, .experience {
+		float: left;
+		margin: auto;
+		width: 50%;
+		height: 25rem;;
+		border: red solid 1px;
+	}
+
+	.resume-container h2 {
+		margin: 1rem;
+	}
+
 }
 
 @media screen and (min-width: 1200px) {
